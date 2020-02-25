@@ -37,3 +37,5 @@ set incsearch " do search in both directions
 set ignorecase " ignore case sensitivity
 set smartcase " smartly figure out case sensivity
 set mouse=a " activate mouse usage
+
+colorscheme sonokai
