@@ -29,3 +29,9 @@ set ignorecase " ignore case sensitivity
 set smartcase " smartly figure out case sensivity
 set mouse=a " activate mouse usage
 colorscheme sonokai
+
+"************ Plugins ************"
+" Syntastic
+let g:syntastic_check_on_wq = 0
+let g:syntastic_python_pylint_exec = '/usr/bin/pylint3'
+map <F2> :SyntasticCheck<CR>
