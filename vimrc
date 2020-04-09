@@ -17,10 +17,7 @@ set smartindent " smart indentation
 set ttyfast 
 set showmode " displays the current mode the user is in on the bar
 set showcmd " displays the last command
-set list " activated to change certain characters to look different that the actual glyph they represent
-set listchars=tab:›\ ,trail:\ ,extends:#,nbsp:. " following the line above. causes the tabs to be displayed with > 
 set number " show line numbers
-" status line format
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ [BUFFER=%n]\ %{strftime('%c')}
 set encoding=utf-8
 set hlsearch " search highlight
