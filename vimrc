@@ -1,33 +1,71 @@
-" Poriya Mokhtari vim configurations
+" Pouria's vim configurations
 
-set nocompatible " disable backward compatibility with vi
-syntax on " syntax highlighting
-filetype plugin indent on " enable filetype specific settings
-set modelines=0 " disable modelines
-set wrap
-set tabstop=4 " spaces per tab (hard or soft)
-set shiftwidth=4 " shift characters when the <tab> button is pressed (hard)
-set softtabstop=4 " put number of spaces when <tab> button is pressed (soft)
-"set expandtab " enable soft tabs
-set textwidth=79 " screen width
-set cindent " C indentation
-set smartindent " smart indentation
+" ------------- compatibility settings ------------- "
+" disable backward compatibility with vi
+set nocompatible
+
 " ttyfast indicates a fast terminal connection and is activated to do natural
 " scrolling that looks better.
 set ttyfast 
-set showmode " displays the current mode the user is in on the bar
-set showcmd " displays the last command
-set number " show line numbers
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ [BUFFER=%n]\ %{strftime('%c')}
+
+" encoding
 set encoding=utf-8
-set hlsearch " search highlight
-set incsearch " do search in both directions
-set ignorecase " ignore case sensitivity
-set smartcase " smartly figure out case sensivity
-set mouse=a " activate mouse usage
+
+" using mouse in the terminal
+set mouse=a
+
+" enable filetype specific settings
+filetype plugin indent on 
+
+
+" ------------- indentation settings ------------- "
+" spaces per tab (hard or soft)
+set tabstop=4
+
+" shift characters when the <tab> button is pressed (hard)
+set shiftwidth=4
+
+" put number of spaces when <tab> button is pressed (soft)
+set softtabstop=4
+
+" soft tabs (spaces instead of tabs)
+"set expandtab 
+
+" C indentation
+set cindent 
+
+" smart indentation
+set smartindent
+
+" ------------- text settings ------------- "
+" enable folding the text
+set wrap
+
+" width at which to wrap the text
+set textwidth=79
+
+" search highlight
+set hlsearch
+
+" do search in both directions
+set incsearch 
+
+" ignore case sensitivity
+set ignorecase 
+
+" smartly figure out case sensivity
+set smartcase 
+
+" ------------- style settings ------------- "
+" syntax highlighting
+syntax on 
+
+" show line numbers
+set number 
+
 colorscheme sonokai
 
-"************ Plugins ************"
+" ------------- plugins settings ------------- "
 " Syntastic
 let g:syntastic_check_on_wq = 0
 let g:syntastic_python_pylint_exec = '/usr/bin/pylint3'
