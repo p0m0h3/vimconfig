@@ -74,3 +74,7 @@ map <F2> :SyntasticCheck<CR>
 " lightline
 set laststatus=2
 let g:lightline = {'colorscheme': 'wombat'}
+
+" nerdtree
+map <C-n> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
