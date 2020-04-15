@@ -66,7 +66,11 @@ set number
 colorscheme sonokai
 
 " ------------- plugins settings ------------- "
-" Syntastic
+" syntastic
 let g:syntastic_check_on_wq = 0
 let g:syntastic_python_pylint_exec = '/usr/bin/pylint3'
 map <F2> :SyntasticCheck<CR>
+
+" lightline
+set laststatus=2
+let g:lightline = {'colorscheme': 'wombat'}
