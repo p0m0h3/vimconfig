@@ -37,6 +37,9 @@ set cindent
 " smart indentation
 set smartindent
 
+" automatically indent
+set autoindent
+
 " ------------- text settings ------------- "
 " enable folding the text
 set wrap
@@ -63,7 +66,7 @@ syntax on
 " show line numbers
 set number 
 
-colorscheme solarized
+colorscheme sonokai
 
 " ------------- plugins settings ------------- "
 " syntastic
