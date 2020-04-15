@@ -31,9 +31,6 @@ set softtabstop=4
 " soft tabs (spaces instead of tabs)
 "set expandtab 
 
-" C indentation
-set cindent 
-
 " smart indentation
 set smartindent
 
