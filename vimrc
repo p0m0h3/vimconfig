@@ -63,7 +63,7 @@ syntax on
 " show line numbers
 set number 
 
-colorscheme sonokai
+colorscheme solarized
 
 " ------------- plugins settings ------------- "
 " syntastic
@@ -73,7 +73,7 @@ map <F2> :SyntasticCheck<CR>
 
 " lightline
 set laststatus=2
-let g:lightline = {'colorscheme': 'wombat'}
+let g:lightline = {'colorscheme': 'solarized'}
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
