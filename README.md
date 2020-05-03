@@ -9,20 +9,21 @@ This repository should be cloned at `$HOME/.vim`.
 * nerdtree
 * snippets
 * syntastic
+* vim-go
 
 ## Included Colorschemes:
 
 * iceberg
 * solarized
-* sonokai
+* sonokai (default)
 
 ## Notes
 
-1. This configuration uses the VIM 8.~ built-in plugin manager. it does **not**
+1. This configuration uses the VIM 8 built-in plugin manager. it does **not**
    work with any older version.
 2. It uses hard tabs by default. but changes according to PEP8 indent style for
-   Python. This behaviour can be changed in `vimrc`.
-3. Color scheme and other changes should be make in the `vimrc` file.
+   Python and `go fmt` for Go. This behaviour can be changed in `vimrc`.
+3. Color scheme and other changes can be made in the `vimrc` file.
 4. Plugins are not added as submodules and should be updated manually, if
    desired.
 
