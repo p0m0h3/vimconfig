@@ -7,11 +7,8 @@ This repository should be cloned at `$HOME/.vim`.
 * fugitive (git)
 * lightline
 * nerdtree
-* snipmate
 * snippets
 * syntastic
-* tlib_vim (dep of: snipmate)
-* vim-addon-mw-utils (dep of: snipmate)
 
 ## Included Colorschemes:
 
