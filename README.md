@@ -18,12 +18,11 @@ This repository should be cloned at `$HOME/.vim`.
 
 ## Notes
 
-1. This configuration uses the VIM 8.~ built-in plugin manager. it does *not*
-   work with anything older.
+1. This configuration uses the VIM 8.~ built-in plugin manager. it does **not**
+   work with any older version.
 2. It uses hard tabs by default. but changes according to PEP8 indent style for
-   Python.
-3. Color scheme and other adjustments can be made from the vimrc file,
-   naturally.
+   Python. This behaviour can be changed in `vimrc`.
+3. Color scheme and other changes should be make in the `vimrc` file.
 4. Plugins are not added as submodules and should be updated manually, if
    desired.
 
