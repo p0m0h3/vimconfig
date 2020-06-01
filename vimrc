@@ -63,6 +63,9 @@ syntax on
 " show line numbers
 set number 
 
+" show options when pressing tab
+set wildmenu
+
 colorscheme sonokai
 
 " ------------- plugins settings ------------- "
