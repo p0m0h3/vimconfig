@@ -66,20 +66,9 @@ set number
 " show options when pressing tab
 set wildmenu
 
-colorscheme sonokai
+colorscheme iceberg
 
 " ------------- plugins settings ------------- "
-" syntastic
-let g:syntastic_check_on_wq = 0
-let g:syntastic_python_pylint_exec = '/usr/bin/pylint3'
-let g:syntastic_error_symbol = "\u2717"
-let g:syntastic_warning_symbol = "\u26A0"
-map <F2> :SyntasticCheck<CR>
-
-" lightline
-set laststatus=2
-let g:lightline = {'colorscheme': 'solarized'}
-
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
