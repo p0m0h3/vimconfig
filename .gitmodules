@@ -22,3 +22,9 @@
 [submodule "pack/plugins/start/syntastic"]
 	path = pack/plugins/start/syntastic
 	url = git@github.com:vim-syntastic/syntastic.git
+[submodule "pack/plugins/start/ctrlp.vim"]
+	path = pack/plugins/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "pack/plugins/start/vim-devicons"]
+	path = pack/plugins/start/vim-devicons
+	url = git@github.com:ryanoasis/vim-devicons.git
