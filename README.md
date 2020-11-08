@@ -4,28 +4,28 @@ This repository should be cloned at `$HOME/.vim`.
 
 ## Included Plugins:
 
-* fugitive (git)
-* lightline
-* nerdtree
-* snippets
-* syntastic
-* vim-go
+ * ale
+ * nerdtree
+ * nerdtree-git-plugin
+ * rust.vim
+ * syntastic
+ * vim-go
+ * vim-rails
+ * vim-ruby
 
 ## Included Colorschemes:
 
-* iceberg
+* iceberg (default)
 * solarized
-* sonokai (default)
+* sonokai
 
 ## Notes
 
-1. This configuration uses the VIM 8 built-in plugin manager. it does **not**
+1. This configuration uses the VIM 8 built-in plugin manager. It does **not**
    work with any older version.
-2. It uses hard tabs by default. but changes according to PEP8 indent style for
-   Python and `go fmt` for Go. This behaviour can be changed in `vimrc`.
-3. Color scheme and other changes can be made in the `vimrc` file.
-4. Plugins are not added as submodules and should be updated manually, if
-   desired.
+2. Hard tabs are used by default. But changes according to several supported lanuages.
+   For example PEP8 indent style is used for Python files,`go fmt` for Go etc.
+3. Plugins are added as git submodules.
 
 ## License
 
