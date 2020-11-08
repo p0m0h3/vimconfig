@@ -12,6 +12,8 @@ This repository should be cloned at `$HOME/.vim`.
  * vim-go
  * vim-rails
  * vim-ruby
+ * vim-devicons
+ * ctrlp
 
 ## Included Colorschemes:
 

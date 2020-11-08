@@ -80,15 +80,15 @@ map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " nerdtree-git
 let g:NERDTreeGitStatusIndicatorMapCustom = {
-                \ 'Modified'  :'✹',
-                \ 'Staged'    :'✚',
-                \ 'Untracked' :'✭',
+                \ 'Modified'  :'*',
+                \ 'Staged'    :'+',
+                \ 'Untracked' :'-',
                 \ 'Renamed'   :'➜',
                 \ 'Unmerged'  :'═',
-                \ 'Deleted'   :'✖',
-                \ 'Dirty'     :'✗',
+                \ 'Deleted'   :'x',
+                \ 'Dirty'     :'X',
                 \ 'Ignored'   :'☒',
-                \ 'Clean'     :'✔︎',
+                \ 'Clean'     :'c',
                 \ 'Unknown'   :'?',
                 \ }
 
