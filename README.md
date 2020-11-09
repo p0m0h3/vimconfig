@@ -14,6 +14,8 @@ This repository should be cloned at `$HOME/.vim`.
  * vim-ruby
  * vim-devicons
  * ctrlp
+ * lightline
+ * vim-gitgutter
 
 ## Included Colorschemes:
 
