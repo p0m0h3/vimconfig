@@ -85,6 +85,12 @@ colorscheme iceberg
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+let g:DevIconsEnableFoldersOpenClose = 1
+" If more than one window and previous buffer was NERDTree, go back to it.
+autocmd BufEnter * if bufname('#') =~# "^NERD_tree_" && winnr('$') > 1 | b# | endif
+
+" enable devicons after nerdtree-git
+packadd vim-devicons
 
 " ale
 let g:ale_completion_enabled = 1

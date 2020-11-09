@@ -23,7 +23,7 @@
 	path = pack/plugins/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
 [submodule "pack/plugins/start/vim-devicons"]
-	path = pack/plugins/start/vim-devicons
+	path = pack/plugins/opt/vim-devicons
 	url = https://github.com/ryanoasis/vim-devicons.git
 [submodule "pack/plugins/start/lightline.vim"]
 	path = pack/plugins/start/lightline.vim
