@@ -79,7 +79,7 @@ set cursorline
 set splitbelow
 set splitright
 
-colorscheme iceberg
+colorscheme sonokai
 
 " ------------- plugins settings ------------- "
 " nerdtree
