@@ -39,7 +39,7 @@ set autoindent
 
 " ------------- text settings ------------- "
 " enable folding the text
-set wrap
+"set wrap
 
 " width at which to wrap the text
 set textwidth=79
@@ -49,9 +49,6 @@ set hlsearch
 
 " do search in both directions
 set incsearch 
-
-" ignore case sensitivity
-set ignorecase 
 
 " smartly figure out case sensivity
 set smartcase 
@@ -122,4 +119,3 @@ endfunction
 
 " term
 map <F2> :term<CR>
-set termwinsize=15x0
