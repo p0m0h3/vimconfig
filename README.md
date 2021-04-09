@@ -16,6 +16,7 @@ $ git clone --recursive https://github.com/pouriamokhtari/vimconfig.git .vim
  * vim-rails
  * vim-ruby
  * editorconfig-vim
+ * vim-surround
 
 To install new plugins simply run
 
