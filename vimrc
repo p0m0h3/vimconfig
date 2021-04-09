@@ -39,7 +39,7 @@ set autoindent
 
 " ------------- text settings ------------- "
 " enable folding the text
-"set wrap
+set wrap
 
 " width at which to wrap the text
 set textwidth=79
@@ -52,12 +52,6 @@ set incsearch
 
 " smartly figure out case sensivity
 set smartcase 
-
-" reduce text update time
-set updatetime=100
-
-" fuzzyfind recursive path set (warning: it isn't async)
-"set path=$PWD/**
 
 " ------------- style settings ------------- "
 " syntax highlighting
@@ -81,41 +75,12 @@ colorscheme sonokai
 " ------------- plugins settings ------------- "
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-let g:DevIconsEnableFoldersOpenClose = 1
-" If more than one window and previous buffer was NERDTree, go back to it.
-autocmd BufEnter * if bufname('#') =~# "^NERD_tree_" && winnr('$') > 1 | b# | endif
-
-" enable devicons after nerdtree-git
-packadd vim-devicons
 
 " ale
-let g:ale_completion_enabled = 1
-let g:ale_completion_autoimport = 1
-packloadall
-silent! helptags ALL
 let g:ale_fix_on_save = 1
-let g:ale_sign_error = "\u2717"
-let g:ale_sign_warning = "\u26A0"
+let g:ale_sign_error = "E"
+let g:ale_sign_warning = "W"
 
 " lightline
 set laststatus=2
-let g:lightline = {}
-let g:lightline = {
-      \ 'colorscheme': 'wombat',
-      \ 'component_function': {
-      \   'filetype': 'MyFiletype',
-      \   'fileformat': 'MyFileformat',
-      \ }
-      \ }
-
-function! MyFiletype()
-  return winwidth(0) > 70 ? (strlen(&filetype) ? &filetype . ' ' . WebDevIconsGetFileTypeSymbol() : 'no ft') : ''
-endfunction
-
-function! MyFileformat()
-  return winwidth(0) > 70 ? (&fileformat . ' ' . WebDevIconsGetFileFormatSymbol()) : ''
-endfunction
-
-" term
-map <F2> :term<CR>
+let g:lightline = {'colorscheme': 'wombat'}
