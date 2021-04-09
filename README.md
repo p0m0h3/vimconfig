@@ -1,26 +1,24 @@
 # Pouria's VIM configuration
 
-This repository should be cloned at `$HOME/.vim`.
+This repository should be cloned at `$HOME/.vim` with the following command to
+get the  git sub-modules recursively.
+
+```
+$ git clone --recursive https://github.com/pouriamokhtari/vimconfig.git .vim
+```
 
 ## Included Plugins:
 
  * ale
- * nerdtree
- * nerdtree-git-plugin
+ * ctrlp
  * rust.vim
- * syntastic
  * vim-go
  * vim-rails
  * vim-ruby
- * vim-devicons
- * ctrlp
- * lightline
- * vim-gitgutter
 
 ## Included Colorschemes:
 
 * iceberg (default)
-* solarized
 * sonokai
 
 ## Notes
@@ -29,7 +27,7 @@ This repository should be cloned at `$HOME/.vim`.
    work with any older version.
 2. Hard tabs are used by default. But changes according to several supported lanuages.
    For example PEP8 indent style is used for Python files,`go fmt` for Go etc.
-3. Plugins are added as git submodules.
+3. Plugins are added as git sub-modules.
 
 ## License
 
