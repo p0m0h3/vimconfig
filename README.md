@@ -15,11 +15,18 @@ $ git clone --recursive https://github.com/pouriamokhtari/vimconfig.git .vim
  * vim-go
  * vim-rails
  * vim-ruby
+ * editorconfig-vim
+
+To install new plugins simply run
+
+```
+$ git submodule add <https_URL> ~/.vim/pack/plugins/start/<plugin_name>
+```
 
 ## Included Colorschemes:
 
-* iceberg (default)
-* sonokai
+* iceberg
+* sonokai (default)
 
 ## Notes
 
