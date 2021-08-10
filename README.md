@@ -17,11 +17,13 @@ $ git clone --recursive https://github.com/pouriamokhtari/vimconfig.git .vim
  * vim-ruby
  * editorconfig-vim
  * vim-surround
+ * vim-javascript
+ * typescript-vim
 
 To install new plugins simply run
 
 ```
-$ git submodule add <https_URL> ~/.vim/pack/plugins/start/<plugin_name>
+$ git submodule add --depth=1 <https_URL> ~/.vim/pack/plugins/start/<plugin_name>
 ```
 
 ## Included Colorschemes:
