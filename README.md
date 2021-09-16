@@ -18,6 +18,7 @@ $ git clone --recursive https://github.com/pouriamokhtari/vimconfig.git .vim
  * vim-surround
  * vimtext
  * NERDTree
+ * fugitive.vim
  * vim-javascript
  * typescript-vim
 
