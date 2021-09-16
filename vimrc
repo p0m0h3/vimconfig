@@ -17,6 +17,8 @@ set mouse=a
 " enable filetype specific settings
 filetype plugin indent on 
 
+" enable access to system clipboard
+set clipboard=unnamed,unnamedplus
 
 " ------------- indentation settings ------------- "
 " spaces per tab (hard or soft)
