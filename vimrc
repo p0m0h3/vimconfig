@@ -38,12 +38,6 @@ set smartindent
 set autoindent
 
 " ------------- text settings ------------- "
-" enable folding the text
-set wrap
-
-" width at which to wrap the text
-set textwidth=79
-
 " search highlight
 set hlsearch
 
@@ -80,7 +74,3 @@ map <C-n> :NERDTreeToggle<CR>
 let g:ale_fix_on_save = 1
 let g:ale_sign_error = "E"
 let g:ale_sign_warning = "W"
-
-" lightline
-set laststatus=2
-let g:lightline = {'colorscheme': 'wombat'}
