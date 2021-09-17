@@ -9,18 +9,18 @@ $ git clone --recursive https://github.com/pouriamokhtari/vimconfig.git .vim
 
 ## Included Plugins:
 
+ * NERDTree
  * ale
  * ctrlp
- * rust.vim
- * vim-go
- * vim-ruby
  * editorconfig-vim
+ * fugitive.vim
+ * rust.vim
+ * typescript-vim
+ * vim-go
+ * vim-javascript
+ * vim-ruby
  * vim-surround
  * vimtext
- * NERDTree
- * fugitive.vim
- * vim-javascript
- * typescript-vim
 
 To install new plugins simply run
 
