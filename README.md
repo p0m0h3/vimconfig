@@ -19,6 +19,7 @@ $ git clone --recursive https://github.com/pouriamokhtari/vimconfig.git .vim
  * vim-go
  * vim-javascript
  * vim-ruby
+ * vim-rails
  * vim-surround
  * vimtext
 
