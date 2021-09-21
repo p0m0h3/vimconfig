@@ -49,6 +49,10 @@ set incsearch
 " smartly figure out case sensivity
 set smartcase 
 
+" set the leader key to space
+nnoremap <SPACE> <Nop>
+let mapleader = " "
+
 " ------------- style settings ------------- "
 " syntax highlighting
 syntax on 
