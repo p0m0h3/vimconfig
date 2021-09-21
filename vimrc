@@ -81,6 +81,10 @@ set background=dark
 " ------------- plugins settings ------------- "
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
+let NERDTreeQuitOnOpen = 1
+let NERDTreeAutoDeleteBuffer = 1
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
 
 " ale
 let g:ale_fix_on_save = 1
