@@ -17,6 +17,7 @@ $ git clone --recursive https://github.com/pouriamokhtari/vimconfig.git .vim
  * rust.vim
  * typescript-vim
  * vim-go
+ * gruvbox
  * vim-javascript
  * vim-ruby
  * vim-rails
@@ -28,11 +29,6 @@ To install new plugins simply run
 ```
 $ git submodule add --depth=1 <https_URL> ~/.vim/pack/plugins/start/<plugin_name>
 ```
-
-## Included Colorschemes:
-
-* iceberg
-* sonokai (default)
 
 ## Notes
 

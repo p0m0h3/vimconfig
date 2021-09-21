@@ -70,7 +70,9 @@ set cursorline
 set splitbelow
 set splitright
 
-colorscheme codedark
+colorscheme gruvbox
+set background=dark
+
 
 " ------------- plugins settings ------------- "
 " nerdtree
