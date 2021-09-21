@@ -71,9 +71,10 @@ set splitbelow
 set splitright
 
 " split separator
-set fillchars+=vert:
+set fillchars+=vert:│
 
-colorscheme gruvbox
+packadd! sonokai
+colorscheme sonokai
 set background=dark
 
 
