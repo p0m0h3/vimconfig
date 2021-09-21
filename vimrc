@@ -70,6 +70,9 @@ set cursorline
 set splitbelow
 set splitright
 
+" split separator
+set fillchars+=vert:
+
 colorscheme gruvbox
 set background=dark
 
