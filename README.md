@@ -14,13 +14,14 @@ $ git clone --recursive https://github.com/pouriamokhtari/vimconfig.git .vim
  * ctrlp
  * editorconfig-vim
  * fugitive.vim
+ * gruvbox
  * rust.vim
+ * sonokai
  * typescript-vim
  * vim-go
- * gruvbox
  * vim-javascript
- * vim-ruby
  * vim-rails
+ * vim-ruby
  * vim-surround
  * vimtext
 
