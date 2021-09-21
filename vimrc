@@ -70,7 +70,7 @@ set cursorline
 set splitbelow
 set splitright
 
-colorscheme sonokai
+colorscheme codedark
 
 " ------------- plugins settings ------------- "
 " nerdtree

@@ -40,6 +40,3 @@
 [submodule "pack/plugins/start/vim-rails"]
 	path = pack/plugins/start/vim-rails
 	url = https://github.com/tpope/vim-rails.git
-[submodule "pack/plugins/start/vim"]
-	path = pack/plugins/start/vim
-	url = https://github.com/dracula/vim.git
