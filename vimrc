@@ -77,6 +77,9 @@ set fillchars+=vert:│
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
 
+" show the sign column by default
+set scl=yes
+
 packadd! sonokai
 colorscheme sonokai
 set background=dark
